@@ -1,0 +1,76 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DryWatch Heubelüftung",
+        "data": {
+          "name": "Name",
+          "t_aussen": "Temperatur aussen",
+          "rf_aussen": "Feuchte aussen",
+          "t_zuluft": "Temperatur Zuluft",
+          "rf_zuluft": "Feuchte Zuluft",
+          "t_abluft": "Temperatur Abluft (über dem Stock)",
+          "rf_abluft": "Feuchte Abluft (über dem Stock)",
+          "luftmenge": "Luftmenge (Sensor, m³/s oder m³/h)",
+          "hoehe": "Höhe über Meer",
+          "flaeche": "Stockfläche",
+          "luftmenge_fix": "Luftmenge fest (ohne Sensor)"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "DryWatch Heubelüftung",
+        "data": {
+          "t_aussen": "Temperatur aussen",
+          "rf_aussen": "Feuchte aussen",
+          "t_zuluft": "Temperatur Zuluft",
+          "rf_zuluft": "Feuchte Zuluft",
+          "t_abluft": "Temperatur Abluft (über dem Stock)",
+          "rf_abluft": "Feuchte Abluft (über dem Stock)",
+          "luftmenge": "Luftmenge (Sensor, m³/s oder m³/h)",
+          "hoehe": "Höhe über Meer",
+          "flaeche": "Stockfläche",
+          "luftmenge_fix": "Luftmenge fest (ohne Sensor)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "wasserentzug": {
+        "name": "Wasserentzug"
+      },
+      "wasser_pro_m3": {
+        "name": "Wasserentzug je m³"
+      },
+      "ts_schaetzung": {
+        "name": "TS-Schätzung"
+      },
+      "geschwindigkeit": {
+        "name": "Luftgeschwindigkeit"
+      },
+      "phase": {
+        "name": "Trocknungsphase",
+        "state": {
+          "start": "Startphase",
+          "haupt": "Haupttrocknung",
+          "end": "Endtrocknung",
+          "lager": "Lagerung"
+        }
+      },
+      "empfehlung": {
+        "name": "Empfehlung",
+        "state": {
+          "dauer_pflicht": "Dauerbetrieb (mind. 24 h)",
+          "dauer": "Dauerbetrieb",
+          "ineffizient": "Ineffizient: stoppen oder aufbereiten",
+          "intervall": "Intervallbetrieb",
+          "aus": "Lüftung aus"
+        }
+      }
+    }
+  }
+}

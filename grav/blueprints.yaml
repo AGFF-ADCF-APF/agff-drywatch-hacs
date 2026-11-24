@@ -1,0 +1,32 @@
+name: AGFF DryWatch
+slug: agff-drywatch
+type: plugin
+version: 0.1.0
+description: 'Baustein [drywatch]: Rechner für die Heubelüftung (Wasserentzug, Trocknungsphase, Empfehlung) mit Hintergrundwissen; manuelle Eingabe ohne Sensoren. Gleicher Kern wie die Home-Assistant-Card.'
+icon: fire
+author:
+  name: AGFF
+homepage: https://github.com/AGFF-ADCF-APF/agff-drywatch-hacs
+license: EUPL-1.2
+
+form:
+  validation: loose
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin aktiv
+      highlight: 1
+      default: 1
+      options: { 1: Ja, 0: Nein }
+      validate: { type: bool }
+    datei_basis:
+      type: text
+      label: Adresse der Unterlagen
+      help: 'Merkblätter und Bilder im Hintergrundwissen werden relativ zu dieser Adresse verlinkt.'
+      default: 'https://apps.graswachstum.ch/drywatch/'
+    speichern:
+      type: toggle
+      label: Eingaben im Browser merken
+      default: 1
+      options: { 1: Ja, 0: Nein }
+      validate: { type: bool }

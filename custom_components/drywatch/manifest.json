@@ -1,0 +1,13 @@
+{
+  "domain": "drywatch",
+  "name": "DryWatch Heubelüftung (AGFF)",
+  "codeowners": [],
+  "config_flow": true,
+  "dependencies": ["http", "frontend"],
+  "documentation": "https://github.com/AGFF-ADCF-APF/agff-drywatch-hacs",
+  "integration_type": "helper",
+  "iot_class": "calculated",
+  "issue_tracker": "https://github.com/AGFF-ADCF-APF/agff-drywatch-hacs/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}

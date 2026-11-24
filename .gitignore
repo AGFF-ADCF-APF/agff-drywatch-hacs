@@ -1,0 +1,7 @@
+node_modules/
+dist/
+# gebaut von scripts/build.sh, kommt ins Grav-ZIP
+grav/assets/
+__pycache__/
+*.pyc
+.DS_Store

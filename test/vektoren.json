@@ -1,0 +1,9 @@
+{
+  "_quelle": "Referenzwerte aus agff-app-drywatch/public/api/evaporation.php (PHP 8.3), 24.11.2026. Gelten für den JS-Kern und die Python-Integration.",
+  "wasserentzug": [
+    {"t2": 20, "h2": 60, "t3": 15, "h3": 90, "hoehe": 600, "luftmenge": 11, "p": 943.4662, "dichte": 1.121189, "dx": 0.8973, "wasserProM3": 1.006043, "wasserLh": 39.839},
+    {"t2": 25, "h2": 45, "t3": 22, "h3": 70, "hoehe": 800, "luftmenge": 8.5, "p": 921.0897, "dichte": 1.076241, "dx": 2.981418, "wasserProM3": 3.208724, "wasserLh": 98.187},
+    {"t2": 12, "h2": 85, "t3": 10, "h3": 95, "hoehe": 450, "luftmenge": 3, "p": 960.5356, "dichte": 1.173499, "dx": -0.171167, "wasserProM3": -0.200865, "wasserLh": -2.169},
+    {"t2": 30, "h2": 30, "t3": 18, "h3": 95, "hoehe": 1200, "luftmenge": 0, "p": 877.6251, "dichte": 1.008542, "dx": 5.069378, "wasserProM3": 5.11268, "wasserLh": 0}
+  ]
+}

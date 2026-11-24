@@ -1,0 +1,15 @@
+{
+  "name": "agff-drywatch-hacs",
+  "version": "0.1.0",
+  "private": true,
+  "description": "DryWatch Heubelüftung: Home-Assistant-Integration mit Lovelace-Card und Grav-Plugin aus einem gemeinsamen JS-Kern",
+  "license": "EUPL-1.2",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "build": "node scripts/build.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.24.0"
+  }
+}

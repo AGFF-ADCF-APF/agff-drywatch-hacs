@@ -1,0 +1,76 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DryWatch hay drying",
+        "data": {
+          "name": "Name",
+          "t_aussen": "Outside temperature",
+          "rf_aussen": "Outside humidity",
+          "t_zuluft": "Supply air temperature",
+          "rf_zuluft": "Supply air humidity",
+          "t_abluft": "Exhaust air temperature (above the stack)",
+          "rf_abluft": "Exhaust air humidity (above the stack)",
+          "luftmenge": "Airflow (sensor, m³/s or m³/h)",
+          "hoehe": "Altitude",
+          "flaeche": "Floor area of the stack",
+          "luftmenge_fix": "Fixed airflow (no sensor)"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "DryWatch hay drying",
+        "data": {
+          "t_aussen": "Outside temperature",
+          "rf_aussen": "Outside humidity",
+          "t_zuluft": "Supply air temperature",
+          "rf_zuluft": "Supply air humidity",
+          "t_abluft": "Exhaust air temperature (above the stack)",
+          "rf_abluft": "Exhaust air humidity (above the stack)",
+          "luftmenge": "Airflow (sensor, m³/s or m³/h)",
+          "hoehe": "Altitude",
+          "flaeche": "Floor area of the stack",
+          "luftmenge_fix": "Fixed airflow (no sensor)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "wasserentzug": {
+        "name": "Water removal"
+      },
+      "wasser_pro_m3": {
+        "name": "Water removal per m³"
+      },
+      "ts_schaetzung": {
+        "name": "Dry matter estimate"
+      },
+      "geschwindigkeit": {
+        "name": "Air speed"
+      },
+      "phase": {
+        "name": "Drying phase",
+        "state": {
+          "start": "Start phase",
+          "haupt": "Main drying",
+          "end": "Final drying",
+          "lager": "Storage"
+        }
+      },
+      "empfehlung": {
+        "name": "Recommendation",
+        "state": {
+          "dauer_pflicht": "Continuous (at least 24 h)",
+          "dauer": "Continuous",
+          "ineffizient": "Inefficient: stop or condition air",
+          "intervall": "Interval operation",
+          "aus": "Fan off"
+        }
+      }
+    }
+  }
+}
